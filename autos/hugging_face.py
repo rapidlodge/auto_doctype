@@ -10,7 +10,7 @@ formatted_prompt_template = prompt_template.format(question = "shirt, pant and s
 
 repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
 llm = HuggingFaceEndpoint(
-    repo_id=repo_id, huggingfacehub_api_token="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"
+    repo_id=repo_id, huggingfacehub_api_token=""
 )
 res = llm.invoke(formatted_prompt_template)
 print(res)
